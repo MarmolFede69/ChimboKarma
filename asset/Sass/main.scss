@@ -1,0 +1,91 @@
+#contenedor-general{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    background-color: pink;
+}
+
+*{
+    list-style: none;
+    text-decoration: none;
+}
+
+// Index
+
+.baner-michi{
+    display: flex;
+    flex: row;
+}
+
+.baner-michi__img{
+    width: 100%;
+    height: 200px;
+}
+
+.fuente-color{
+    text-decoration: none;
+    color:rgb(253, 134, 154);
+}
+
+.contenedor-2{
+    width: 90%;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: bisque;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.contenedor-1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    @extend .contenedor-2
+}
+
+.pie-pag{
+    text-align: center;
+    @extend .contenedor-2
+}
+
+//Galeria
+
+.contenedor-nosotros-1{
+    width: 90%;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: bisque;
+    border-radius: 10px;
+    border: 2px solid black;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+.contenedor-nosotros-2, .contenedor-nosotros-3, .contenedor-nosotros-4{
+    @extend .contenedor-nosotros-1
+}
+
+
+//Michi Art
+
+.michiArte{
+    width: 90%;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: bisque;
+    border-radius: 10px;
+    border: 2px solid black;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.contenedor-galeria-img-1{
+    @extend .michiArte
+}
+
+
+
